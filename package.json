@@ -1,0 +1,23 @@
+{
+  "name": "alina_http_learn",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oleksandr Skorokhod <mopis101@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@fastify/jwt": "^6.6.0",
+    "fastify": "^4.13.0",
+    "redis": "^4.6.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
